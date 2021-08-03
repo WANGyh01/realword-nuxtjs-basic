@@ -2,6 +2,14 @@
   {
     "path": "/",
     "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/layout",
+    "children": [
+      {
+        "path": "",
+        "name": "home",
+        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/home",
+        "_name": "_7b289bd3"
+      }
+    ],
     "_name": "_5984b51e"
   }
 ]

@@ -5,6 +5,7 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _5984b51e = () => interopDefault(import('../pages/layout' /* webpackChunkName: "" */))
+const _7b289bd3 = () => interopDefault(import('../pages/home' /* webpackChunkName: "" */))
 
 const emptyFn = () => {}
 
@@ -19,7 +20,12 @@ export const routerOptions = {
 
   routes: [{
     path: "/",
-    component: _5984b51e
+    component: _5984b51e,
+    children: [{
+      path: "",
+      component: _7b289bd3,
+      name: "home"
+    }]
   }],
 
   fallback: false

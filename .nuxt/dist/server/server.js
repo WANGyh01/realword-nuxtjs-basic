@@ -1372,7 +1372,9 @@ function shouldScrollToTop(route) {
 
 
 
-const _5984b51e = () => interopDefault(__webpack_require__.e(/* import() */ 1).then(__webpack_require__.bind(null, 18)));
+const _5984b51e = () => interopDefault(__webpack_require__.e(/* import() */ 2).then(__webpack_require__.bind(null, 18)));
+
+const _7b289bd3 = () => interopDefault(__webpack_require__.e(/* import() */ 1).then(__webpack_require__.bind(null, 19)));
 
 const emptyFn = () => {};
 
@@ -1385,7 +1387,12 @@ const routerOptions = {
   scrollBehavior: router_scrollBehavior,
   routes: [{
     path: "/",
-    component: _5984b51e
+    component: _5984b51e,
+    children: [{
+      path: "",
+      component: _7b289bd3,
+      name: "home"
+    }]
   }],
   fallback: false
 };
