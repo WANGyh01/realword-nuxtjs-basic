@@ -1407,6 +1407,10 @@ const routerOptions = {
       component: _2bb9b216,
       name: "login"
     }, {
+      path: "/register",
+      component: _2bb9b216,
+      name: "register"
+    }, {
       path: "/profile/:username",
       component: _71c7e396,
       name: "profile"

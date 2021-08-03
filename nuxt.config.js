@@ -18,13 +18,11 @@ module.exports = {
               path: '/login',
               name: 'login',
               component: resolve(__dirname, 'pages/login/')
-            },
-            // {
-            //   path: '/register',
-            //   name: 'register',
-            //   component: resolve(__dirname, 'pages/login/')
-            // }
-            {
+            }, {
+              path: '/register',
+              name: 'register',
+              component: resolve(__dirname, 'pages/login/')
+            }, {
               path: '/profile/:username',
               name: 'profile',
               component: resolve(__dirname, 'pages/profile/')
@@ -40,7 +38,7 @@ module.exports = {
               path: '/article/:slug',
               name: 'article',
               component: resolve(__dirname, 'pages/article/')
-            },
+            }
           ]
         }
       ])

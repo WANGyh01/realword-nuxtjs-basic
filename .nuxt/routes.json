@@ -6,40 +6,38 @@
       {
         "path": "",
         "name": "home",
-        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/home",
-        "_name": "_7b289bd3"
+        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/home"
       },
       {
         "path": "/login",
         "name": "login",
-        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/login",
-        "_name": "_2bb9b216"
+        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/login"
+      },
+      {
+        "path": "/register",
+        "name": "register",
+        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/login"
       },
       {
         "path": "/profile/:username",
         "name": "profile",
-        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/profile",
-        "_name": "_71c7e396"
+        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/profile"
       },
       {
         "path": "/settings",
         "name": "settings",
-        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/settings",
-        "_name": "_a4b46dd2"
+        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/settings"
       },
       {
         "path": "/editor",
         "name": "editor",
-        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/editor",
-        "_name": "_4db5db61"
+        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/editor"
       },
       {
         "path": "/article/:slug",
         "name": "article",
-        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/article",
-        "_name": "_a4335cfc"
+        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/article"
       }
-    ],
-    "_name": "_5984b51e"
+    ]
   }
 ]
