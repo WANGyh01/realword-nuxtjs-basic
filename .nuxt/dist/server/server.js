@@ -1376,13 +1376,15 @@ const _5984b51e = () => interopDefault(__webpack_require__.e(/* import() */ 4).t
 
 const _7b289bd3 = () => interopDefault(__webpack_require__.e(/* import() */ 3).then(__webpack_require__.bind(null, 19)));
 
-const _71c7e396 = () => interopDefault(__webpack_require__.e(/* import() */ 5).then(__webpack_require__.bind(null, 20)));
+const _2bb9b216 = () => interopDefault(__webpack_require__.e(/* import() */ 5).then(__webpack_require__.bind(null, 20)));
 
-const _a4b46dd2 = () => interopDefault(__webpack_require__.e(/* import() */ 6).then(__webpack_require__.bind(null, 21)));
+const _71c7e396 = () => interopDefault(__webpack_require__.e(/* import() */ 6).then(__webpack_require__.bind(null, 21)));
 
-const _4db5db61 = () => interopDefault(__webpack_require__.e(/* import() */ 2).then(__webpack_require__.bind(null, 22)));
+const _a4b46dd2 = () => interopDefault(__webpack_require__.e(/* import() */ 7).then(__webpack_require__.bind(null, 22)));
 
-const _a4335cfc = () => interopDefault(__webpack_require__.e(/* import() */ 1).then(__webpack_require__.bind(null, 23)));
+const _4db5db61 = () => interopDefault(__webpack_require__.e(/* import() */ 2).then(__webpack_require__.bind(null, 23)));
+
+const _a4335cfc = () => interopDefault(__webpack_require__.e(/* import() */ 1).then(__webpack_require__.bind(null, 24)));
 
 const emptyFn = () => {};
 
@@ -1400,6 +1402,10 @@ const routerOptions = {
       path: "",
       component: _7b289bd3,
       name: "home"
+    }, {
+      path: "/login",
+      component: _2bb9b216,
+      name: "login"
     }, {
       path: "/profile/:username",
       component: _71c7e396,

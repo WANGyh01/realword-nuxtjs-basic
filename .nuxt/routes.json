@@ -6,28 +6,40 @@
       {
         "path": "",
         "name": "home",
-        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/home"
+        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/home",
+        "_name": "_7b289bd3"
+      },
+      {
+        "path": "/login",
+        "name": "login",
+        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/login",
+        "_name": "_2bb9b216"
       },
       {
         "path": "/profile/:username",
         "name": "profile",
-        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/profile"
+        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/profile",
+        "_name": "_71c7e396"
       },
       {
         "path": "/settings",
         "name": "settings",
-        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/settings"
+        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/settings",
+        "_name": "_a4b46dd2"
       },
       {
         "path": "/editor",
         "name": "editor",
-        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/editor"
+        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/editor",
+        "_name": "_4db5db61"
       },
       {
         "path": "/article/:slug",
         "name": "article",
-        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/article"
+        "component": "/Users/wangyuheng/Desktop/knowledge/fed-e-009-exercise/part3/module3/realword-nuxtjs-basic/pages/article",
+        "_name": "_a4335cfc"
       }
-    ]
+    ],
+    "_name": "_5984b51e"
   }
 ]

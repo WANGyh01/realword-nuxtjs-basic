@@ -6,6 +6,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _5984b51e = () => interopDefault(import('../pages/layout' /* webpackChunkName: "" */))
 const _7b289bd3 = () => interopDefault(import('../pages/home' /* webpackChunkName: "" */))
+const _2bb9b216 = () => interopDefault(import('../pages/login' /* webpackChunkName: "" */))
 const _71c7e396 = () => interopDefault(import('../pages/profile' /* webpackChunkName: "" */))
 const _a4b46dd2 = () => interopDefault(import('../pages/settings' /* webpackChunkName: "" */))
 const _4db5db61 = () => interopDefault(import('../pages/editor' /* webpackChunkName: "" */))
@@ -29,6 +30,10 @@ export const routerOptions = {
       path: "",
       component: _7b289bd3,
       name: "home"
+    }, {
+      path: "/login",
+      component: _2bb9b216,
+      name: "login"
     }, {
       path: "/profile/:username",
       component: _71c7e396,
